@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Dog
 
     def name=(new_name)
@@ -17,3 +18,21 @@ class Dog
     end 
 
 end 
+=======
+class Dog 
+  
+ def initialize(name)
+   @name = name
+ end 
+ 
+ def name=(name)
+   @name = name
+ end 
+  
+  def name 
+    "#{@name}"
+  end 
+  
+end 
+
+>>>>>>> 54fd93787509b3a0197daa0d80b10d9b13d1050c
